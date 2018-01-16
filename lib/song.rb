@@ -49,7 +49,7 @@ class Song
    end
 
    def self.new_from_filename(filename)
-     song = self.new(filename)
+     song = self.new
      song.name = "For Love I Come"
      song.artist_name = "Thundercat"
      song
