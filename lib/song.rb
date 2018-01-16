@@ -50,7 +50,7 @@ class Song
 
    def self.new_from_filename(filename)
      song = self.new
-     song.name = 
+     song.name = "For Love I Come"
      song.artist_name = "Thundercat"
      song
       #binding.pry
@@ -65,6 +65,8 @@ class Song
      song.save
      song
    end
+
+   def self.destroy
 
 
 end
