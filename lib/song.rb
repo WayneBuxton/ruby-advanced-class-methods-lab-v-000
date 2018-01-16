@@ -67,6 +67,7 @@ class Song
    end
 
    def self.destroy
+   end
 
 
 end
