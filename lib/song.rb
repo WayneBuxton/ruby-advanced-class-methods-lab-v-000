@@ -49,9 +49,9 @@ class Song
    end
 
    def self.new_from_filename(filename)
-     song = self.new
-     song.name = "For Love I Come"
-     song.artist_name = "Thundercat"
+     song = self.new(filename)
+     song.name = name
+     song.artist_name = artist
      song
       #binding.pry
     end
