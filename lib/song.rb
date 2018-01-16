@@ -50,7 +50,7 @@ class Song
 
    def self.new_from_filename(filename)
      song = self.new(filename)
-     song.name = name
+     song.name = song_name
      song.artist_name = artist
      song
       #binding.pry
